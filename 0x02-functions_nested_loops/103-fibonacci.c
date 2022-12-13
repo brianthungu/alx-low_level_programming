@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	int i;
+	int i, j, k, next;
 	long int fibonacci[50], sum = 2;
 
 	fibonacci[0] = 1;
@@ -21,7 +21,7 @@ int main(void)
 			sum = sum + j;
 		}
 		next = j + k;
-		j = k
+		j = k;
 		k = next;
 	}
 
