@@ -1,19 +1,19 @@
-#include <main.h>
+#include <unistd.h>
+#include "main.h"
+
 /**
- * print _putchar
- * is written by mbah
- * Return: 0
+ * main - Check description
+ * Description: It prints the word _putchar, followed by a new line.
+ * Return: 0.
  */
-int _putchar(char)
+int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char word[9] = "Holberton";
+	int i;
+
+	for (i = 0; i < 9; i++)
+	_putchar(word[i]);
 	_putchar('\n');
+
 	return (0);
 }
