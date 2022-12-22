@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - prints natural numbers below 1024 that are
+ *multiples of 3 or 3
  *
  * Return: Always 0 (Success)
  */
